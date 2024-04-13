@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- 文字コードの指定 UTF-8を指定します -->
+    <meta charset="UTF-8" />
+    <!-- レスポンシブ表示のための記述 -->
+    <!-- <meta name="viewport" content="width=1280" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- サイトのアイコンを設定 -->
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon" /> -->
+    <!-- 検索にヒットしないようにするための記述 -->
+    <meta name="robots" content="noindex" />
+    <!-- サイトのタイトルを記述 -->
+    <title>#見つけて尾道レトロキャンペーン!|Snap Onomichi</title>
+    <!-- サイトの概要を記述 -->
+    <meta name="description" content="あなたの見つけたレトロな尾道の一枚をInstagramに投稿しよう" />
+    <!-- Google Fontsを読み込みための記述 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kiwi+Maru&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- スタイルシートの読み込みのための記述 -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- OGP -->
+    <meta property="og:type" content="website" />
+    <!-- TOPページ以外はarticle -->
+    <meta property="og:title" content="Snap Onomichi" />
+    <meta property="og:site_name" content="Snap Onomichi" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="画像URL" />
+    <meta property="og:description" content="あなたの見つけたレトロな尾道の一枚をInstagramに投稿しよう" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="l-header">
+        <div class="l-header__inner">
+          <h1 class="l-header__logo">
+            <a href="#"><img src="./assets/img/logo.svg" alt="Snap Onomichi" width="366" height="48" decoding="async" /></a>
+          </h1>
+          <button id="js-drawer-icon" class="p-drawer-icon u-hidden-lg" aria-label="メニューボタン">
+            <span class="p-drawer-icon__bar"><span class="p-drawer-icon__dot"></span></span>
+            <span class="p-drawer-icon__bar"></span>
+            <span class="p-drawer-icon__bar"></span>
+          </button>
+          <nav class="l-header__nav">
+            <ul class="l-header__list">
+              <li class="l-header__list-item"><a href="#about">キャンペーンについて</a></li>
+              <li class="l-header__list-item"><a href="#prizes">特典</a></li>
+              <li class="l-header__list-item"><a href="#spots">おすすめスポット</a></li>
+              <li class="l-header__list-item"><a href="#qa">よくある質問</a></li>
+              <li class="l-header__list-item"><a href="#requirements">参加要項</a></li>
+              <li class="l-header__list-button"><a class="c-button c-button--small" href="#entry">応募してみる</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div id="js-drawer-content" class="p-drawer-content">
+        <nav class="p-drawer-content__nav">
+          <a href="#about" class="p-drawer-content__list-link">キャンペーンについて</a>
+          <a href="#prizes" class="p-drawer-content__list-link">キャンペーン特典</a>
+          <a href="#spots" class="p-drawer-content__list-link">おすすめスポット</a>
+          <a href="#qa" class="p-drawer-content__list-link">よくある質問</a>
+          <a href="#requirements" class="p-drawer-content__list-link">参加要項</a>
+          <a href="#contact" class="p-drawer-content__list-link">お問い合わせ</a>
+          <div class="p-drawer-content__list-button"><a class="c-button c-button--small" href="#entry">応募してみる</a></div>
+        </nav>
+      </div>
+
+      <main>
+        <div class="p-mv">
+          <picture class="p-mv__bg">
+            <source media="(min-width: 900px)" srcset="./assets/img/bg_mv.webp" width="3000" height="2250" />
+            <img src="./assets/img/sp/bg_mv.webp" alt="" width="750" height="1108" loading="lazy" decoding="async" />
+          </picture>
+          <div class="p-mv__inner">
+            <p class="p-mv__discription">あなたの見つけたレトロな尾道の一枚を<br />Instagramに投稿しよう</p>
+            <h2 class="p-mv__lead">
+              <picture class="p-mv__lead-img">
+                <source media="(min-width: 900px)" srcset="./assets/img/img_mv_lead.webp" />
+                <img
+                  src="./assets/img/sp/img_mv_lead_sp.webp"
+                  alt="見つけて尾道レトロキャンペーン！"
+                  ddecoding="async"
+                  loading="lazy"
+                  width="670"
+                  height="210"
+                />
+              </picture>
+            </h2>
+            <div class="p-mv__decoration-wrap">
+              <div class="p-mv__decoration-message">
+                <img src="./assets/img/deco_mv2.webp" alt="" width="488" height="260" decoding="async" />
+              </div>
+              <div class="p-mv__decoration-pop">
+                <img
+                  src="./assets/img/deco_mv3.webp"
+                  alt="尾道ギフトを100名様にプレゼント"
+                  width="360"
+                  height="360"
+                  decoding="async"
+                  loading="lazy"
+                />
+              </div>
+              <div class="p-mv__decoration-phone-wprap">
+                <div class="p-mv__decoration-phone-inner">
+                  <div class="p-mv__decoration-phone">
+                    <img src="./assets/img/deco_mv1.webp" alt="" decoding="async" width="500" height="1020" decoding="async" />
+                    <div class="p-mv__decoration-phone-wrap">
+                      <h3 class="p-mv__decoration-phone-heading">#見つけて尾道レトロ</h3>
+                      <div class="p-mv__decoration-phone-body">
+                        <p class="p-mv__decoration-phone-head">応募期間</p>
+                        <div class="p-mv__decoration-phone-text">2022/8/1(月)〜9/30(金)</div>
+                        <div class="p-mv__decoration-phone-button">
+                          <a class="c-button c-button--small" href="#entry">応募してみる</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-mv__decoration-cafe">
+                <img src="./assets/img/deco_mv4.webp" alt="" width="424" height="664" decoding="async" />
+              </div>
+              <div class="p-mv__decoration-cats">
+                <picture class="p-mv__decoration-cats-img">
+                  <source media="(min-width: 900px)" srcset="./assets/img/deco_mv5.webp" />
+                  <img
+                    src="./assets/img/sp/deco_mv5_sp.webp"
+                    alt=""
+                    decoding="async"
+                    width="214"
+                    height="254"
+                    decoding="async"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section id="about" class="p-about">
+          <div class="p-about__decoration-pawpads">
+            <img src="./assets/img/deco_pawpads1.webp" alt="" width="201" height="440" decoding="async" loading="lazy" />
+          </div>
+          <div class="p-about__decoration-stripe">
+            <img src="./assets/img/deco_about6.webp" alt="" width="500" height="500" decoding="async" loading="lazy" />
+          </div>
+          <picture class="p-about__decoration-stairs">
+            <source media="(min-width: 900px)" srcset="./assets/img/deco_about3.webp" />
+            <img src="./assets/img/sp/deco_about3_sp.webp" alt="" width="276" height="430" decoding="async" loading="lazy" />
+          </picture>
+          <picture class="p-about__decoration-left">
+            <source media="(min-width: 900px)" srcset="./assets/img/deco_about1.webp" width="960" height="960" />
+            <img src="./assets/img/sp/deco_about1_sp.webp" alt="" decoding="async" loading="lazy" width="400" height="400" />
+          </picture>
+          <picture class="p-about__decoration-right">
+            <source media="(min-width: 900px)" srcset="./assets/img/deco_about2.webp" width="960" height="960" />
+            <img src="./assets/img/sp/deco_about2_sp.webp" alt="" decoding="async" loading="lazy" width="400" height="400" />
+          </picture>
+          <div class="p-about__decoration-wave">
+            <img src="./assets/img/deco_about7.webp" alt="" width="1752" height="95" decoding="async" loading="lazy" />
+          </div>
+          <div class="p-about__decoration-goods1">
+            <img src="./assets/img/deco_about4.webp" alt="" width="202" height="201" decoding="async" loading="lazy" />
+          </div>
+          <div class="p-about__decoration-goods2">
+            <img src="./assets/img/deco_about5.webp" alt="" width="616" height="302" decoding="async" loading="lazy" />
+          </div>
+          <div class="p-about__inner">
+            <div class="p-about-top">
+              <div class="p-about-top__img-left">
+                <img src="./assets/img/img_about_top_left.webp" alt="" width="268" height="200" decoding="async" loading="lazy" />
+              </div>
+              <div class="p-about-top__img-right">
+                <img
+                  src="./assets/img/img_about_top_right.webp"
+                  alt=""
+                  width="269"
+                  height="201"
+                  decoding="async"
+                  loading="lazy"
+                />
+              </div>
+              <hgroup class="c-heading p-about__heading">
+                <p class="c-heading__en">About</p>
+                <h2 class="c-heading__ja">キャンペーンについて</h2>
+              </hgroup>
+              <h3 class="p-about-top__lead">
+                あなたの心が動いた尾道の瞬間を<br />
+                ＼ おしえてください！ ／
+              </h3>
+              <div class="p-about-top__wrap">
+                <p class="p-about-top__text">
+                  風情あふれる坂道に、静かに佇むお寺。<br />
+                  路地裏の角をまがれば<br class="u-hidden-lg" />
+                  気ままにお昼寝する猫に出会え、<br />
+                  ふと振り返れば、美しい瀬戸内の海が。<br />
+                </p>
+                <p class="p-about-top__text">
+                  数々の映画の舞台にもなってきたこの街には<br />
+                  心がほどけるような、<br class="u-hidden-lg" />
+                  レトロでやさしい風景が広がっています。<br />
+                </p>
+                <p class="p-about-top__text">
+                  あなたの見つけた尾道のなつかしい景色を、<br />
+                  ぜひおしえてください。<br />
+                </p>
+                <p class="p-about-top__text">
+                  尾道観光部（<a class="u-link-text" href="#">@onomichi_retro</a>）を<br class="u-hidden-lg" />
+                  フォロー&<br class="u-hidden-sp" />尾道で撮影した写真を、<br class="u-hidden-lg" />
+                  ハッシュタグ「<span class="p-about-top__text-strong">#見つけて尾道レトロ</span>」を<br
+                    class="u-hidden-lg"
+                  />つけて<br class="u-hidden-sp" />Instagramに投稿いただいた方の中から
+                </p>
+                <strong class="p-about-top__strong">尾道のギフトを100名様にプレゼント！</strong>
+              </div>
+              <div class="p-about-top__button">
+                <a class="c-button" href="">参加の仕方はこちら</a>
+              </div>
+            </div>
+          </div>
+          <div class="p-about-bottom">
+            <div class="p-about-bottom__logo">
+              <img
+                src="./assets/img/logo_onomichi.webp"
+                alt="Onomichi"
+                width="1782"
+                height="194"
+                decoding="async"
+                loading="lazy"
+              />
+            </div>
+            <div class="p-about-swiper">
+              <!-- Slider main container -->
+              <div id="js-about-swiper" class="swiper">
+                <!-- Additional required wrapper -->
+                <div id="js-swiper-wrap" class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide p-about-swiper__slide">
+                    <img
+                      src="./assets/img/img_about_scroll1.webp"
+                      alt=""
+                      width="400"
+                      height="400"
+                      decoding="async"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="swiper-slide p-about-swiper__slide">
+                    <img
+                      src="./assets/img/img_about_scroll2.webp"
+                      alt=""
+                      width="400"
+                      height="400"
+                      decoding="async"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="swiper-slide p-about-swiper__slide">
+                    <img
+                      src="./assets/img/img_about_scroll3.webp"
+                      alt=""
+                      width="400"
+                      height="400"
+                      decoding="async"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="swiper-slide p-about-swiper__slide">
+                    <img
+                      src="./assets/img/img_about_scroll4.webp"
+                      alt=""
+                      width="400"
+                      height="400"
+                      decoding="async"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="swiper-slide p-about-swiper__slide">
+                    <img
+                      src="./assets/img/img_about_scroll5.webp"
+                      alt=""
+                      width="400"
+                      height="400"
+                      decoding="async"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="swiper-slide p-about-swiper__slide">
+                    <img
+                      src="./assets/img/img_about_scroll6.webp"
+                      alt=""
+                      width="400"
+                      height="400"
+                      decoding="async"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="swiper-slide p-about-swiper__slide">
+                    <img
+                      src="./assets/img/img_about_scroll7.webp"
+                      alt=""
+                      width="400"
+                      height="400"
+                      decoding="async"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="swiper-slide p-about-swiper__slide">
+                    <img
+                      src="./assets/img/img_about_scroll8.webp"
+                      alt=""
+                      width="400"
+                      height="400"
+                      decoding="async"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="swiper-slide p-about-swiper__slide">
+                    <img
+                      src="./assets/img/img_about_scroll9.webp"
+                      alt=""
+                      width="400"
+                      height="400"
+                      decoding="async"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="swiper-slide p-about-swiper__slide">
+                    <img
+                      src="./assets/img/img_about_scroll10.webp"
+                      alt=""
+                      width="400"
+                      height="400"
+                      decoding="async"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="entry" class="p-entry">
+          <div class="p-entry__inner">
+            <div class="p-entry__decoration-map">
+              <img src="./assets/img/deco_entry1.webp" alt="" width="920" height="1378" decoding="async" loading="lazy" />
+            </div>
+            <div class="p-entry__decoration-pawpads-right">
+              <img src="./assets/img/deco_pawpads2.webp" alt="" width="200" height="440" decoding="async" loading="lazy" />
+            </div>
+            <div class="p-entry__decoration-cats">
+              <img src="./assets/img/deco_entry2.webp" alt="" width="728" height="383" decoding="async" loading="lazy" />
+            </div>
+            <div class="p-entry__decoration-pawpads-left">
+              <img src="./assets/img/deco_pawpads3.webp" alt="" width="110" height="241" decoding="async" loading="lazy" />
+            </div>
+            <div class="p-entry__decoration-pawpads-right2">
+              <img src="./assets/img/deco_pawpads4.webp " alt="" decoding="async" loading="lazy" />
+            </div>
+
+            <hgroup class="c-heading p-entry__heading">
+              <p class="c-heading__en">How to Enter</p>
+              <h2 class="c-heading__ja">応募の仕方</h2>
+            </hgroup>
+            <div class="p-entry__steps">
+              <div class="p-entry-step">
+                <div class="p-entry-step__box">
+                  <div class="p-entry-step__box-img">
+                    <img src="./assets/img/img_step1.webp" alt="ステップ1" width="560" height="603" decoding="async" />
+                  </div>
+                  <h3 class="p-entry-step__box-title">アカウントをフォロー</h3>
+                  <p class="p-entry-step__box-text">
+                    Instagramアプリをダウンロードして、<br />公式アカウント尾道観光部<br />
+                    (<a href="https://www.instagram.com/" class="u-link-text" target="_blank">@onomichi_retro</a
+                    >)のInstagramの<br />
+                    アカウントをフォローしてにゃん。
+                  </p>
+                  <div class="p-entry-step__box-button">
+                    <a href="https://www.instagram.com/" class="c-button-follow" target="_blank">onomichi_tabi をフォロー</a>
+                  </div>
+                </div>
+              </div>
+              <div class="p-entry-step">
+                <div class="p-entry-step__box">
+                  <div class="p-entry-step__box-img">
+                    <img src="./assets/img/img_step2.webp" alt="ステップ2" width="560" height="603" decoding="async" />
+                  </div>
+                  <h3 class="p-entry-step__box-title">尾道で撮影</h3>
+                  <p class="p-entry-step__box-text">
+                    尾道の旅で「レトロ」を感じられる<br />写真を撮影してほしいんだにゃ。<br />
+                    美しい景色、愛らしい猫、美味しい食べ物や<br />
+                    可愛いお土産など、なんでもOK！
+                  </p>
+                </div>
+              </div>
+              <div class="p-entry-step">
+                <div class="p-entry-step__box">
+                  <div class="p-entry-step__box-img">
+                    <img src="./assets/img/img_step3.webp" alt="ステップ3" width="560" height="603" decoding="async" />
+                  </div>
+                  <h3 class="p-entry-step__box-title">ハッシュタグをつけて投稿！</h3>
+                  <p class="p-entry-step__box-text">
+                    ハッシュタグ「＃見つけて尾道レトロ」を<br />必ずつけて投稿してにゃん！<br />
+                    投稿して頂いた方の中から<br />
+                    100名様に尾道の豪華な商品をプレゼント！
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="p-entry__button">
+              <a class="c-button c-button--large" href="">#見つけて尾道レトロ の最新投稿を見る</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="prizes" class="p-prizes">
+          <div class="p-prizes__inner l-inner">
+            <div class="p-prizes__wrap">
+              <span class="p-prizes__decoration-left">
+                <img src="./assets/img/deco_triangle_left.svg" alt="" width="315" height="86" decoding="async" />
+              </span>
+              <span class="p-prizes__decoration-right">
+                <img src="./assets/img/deco_triangle_right.svg" alt="" width="315" height="86" decoding="async" />
+              </span>
+              <hgroup class="c-heading p-prizes__heading">
+                <p class="c-heading__en">Prizes</p>
+                <h2 class="c-heading__ja">キャンペーン特典</h2>
+              </hgroup>
+              <p class="p-prizes__box-text">
+                キャンペーンにご参加いただたい方の中から100名様に、<span
+                  >尾道で人気のお土産セットやオリジナルグッズをプレゼント！</span
+                >
+              </p>
+              <div class="p-prizes__cards">
+                <div class="p-prizes__card">
+                  <div class="p-prizes-card p-prizes-card--large js-prizes-modal-open" data-target="p-prizes-modal1">
+                    <div class="p-prizes-card__number">
+                      <img src="./assets/img/img_prizes_number1.webp" alt="特典1" width="200" height="200" decoding="async" />
+                    </div>
+                    <div class="p-prizes-card__inner">
+                      <figure>
+                        <picture class="p-prizes-card__img">
+                          <source media="(min-width: 900px)" srcset="./assets/img/img_prizes1.webp" />
+                          <img
+                            src="./assets/img/sp/img_prizes1_sp.webp"
+                            alt=""
+                            decoding="async"
+                            width="320"
+                            height="280"
+                            decoding="async"
+                          />
+                        </picture>
+                        <figcaption>
+                          <h3 class="p-prizes-card__title">海街洋菓子店<br />スイーツセット</h3>
+                        </figcaption>
+                      </figure>
+                      <button class="p-prizes-card__button js-prizes-modal-open" type="button" aria-label="モーダルオープン">
+                        <span class="p-prizes-card__icon">
+                          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M36.0001 0V36H0L36.0001 0Z" />
+                            <g clip-path="url(#clip0_42136_3657)">
+                              <path
+                                d="M26.5161 23.2723C26.5161 23.4419 26.4488 23.6045 26.3289 23.7244C26.209 23.8443 26.0464 23.9116 25.8768 23.9116H24.8113V24.9772C24.8113 25.1468 24.7439 25.3094 24.624 25.4293C24.5041 25.5492 24.3415 25.6165 24.172 25.6165C24.0024 25.6165 23.8398 25.5492 23.7199 25.4293C23.6 25.3094 23.5327 25.1468 23.5327 24.9772V23.9116H22.4671C22.2976 23.9116 22.1349 23.8443 22.015 23.7244C21.8952 23.6045 21.8278 23.4419 21.8278 23.2723C21.8278 23.1027 21.8952 22.9401 22.015 22.8202C22.1349 22.7003 22.2976 22.633 22.4671 22.633H23.5327V21.5674C23.5327 21.3979 23.6 21.2352 23.7199 21.1153C23.8398 20.9954 24.0024 20.9281 24.172 20.9281C24.3415 20.9281 24.5041 20.9954 24.624 21.1153C24.7439 21.2352 24.8113 21.3979 24.8113 21.5674V22.633H25.8768C26.0464 22.633 26.209 22.7003 26.3289 22.8202C26.4488 22.9401 26.5161 23.1027 26.5161 23.2723ZM30.5913 29.6918C30.5319 29.7514 30.4613 29.7987 30.3836 29.8309C30.3059 29.8632 30.2226 29.8798 30.1384 29.8798C30.0543 29.8798 29.971 29.8632 29.8933 29.8309C29.8156 29.7987 29.745 29.7514 29.6856 29.6918L27.1555 27.1616C26.1669 27.9202 24.9268 28.2744 23.6867 28.1523C22.4466 28.0302 21.2994 27.4409 20.4778 26.5041C19.6561 25.5672 19.2216 24.3529 19.2624 23.1074C19.3032 21.862 19.8161 20.6786 20.6972 19.7975C21.5784 18.9164 22.7617 18.4034 24.0071 18.3626C25.2525 18.3219 26.4668 18.7564 27.4037 19.578C28.3405 20.3996 28.9297 21.5469 29.0519 22.787C29.174 24.0271 28.8198 25.2673 28.0612 26.2559L30.5939 28.7882C30.7133 28.9084 30.7801 29.0711 30.7796 29.2405C30.7791 29.4099 30.7114 29.5722 30.5913 29.6918ZM24.172 26.8952C24.8885 26.8952 25.5889 26.6827 26.1847 26.2846C26.7805 25.8866 27.2448 25.3207 27.519 24.6587C27.7932 23.9967 27.865 23.2683 27.7252 22.5655C27.5854 21.8627 27.2404 21.2172 26.7337 20.7105C26.227 20.2039 25.5815 19.8588 24.8787 19.719C24.176 19.5792 23.4476 19.651 22.7856 19.9252C22.1236 20.1994 21.5578 20.6637 21.1597 21.2595C20.7616 21.8553 20.5492 22.5558 20.5492 23.2723C20.5503 24.2328 20.9323 25.1537 21.6115 25.8328C22.2907 26.512 23.2115 26.8941 24.172 26.8952Z"
+                                fill="#F5F5F5"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_42136_3657">
+                                <rect width="11.5198" height="11.5198" fill="white" transform="translate(19.2598 18.36)" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-prizes__card">
+                  <div class="p-prizes-card p-prizes-card--large js-prizes-modal-open" data-target="js-prizes-modal2">
+                    <div class="p-prizes-card__number">
+                      <img src="./assets/img/img_prizes_number2.webp" alt="特典2" width="200" height="200" decoding="async" />
+                    </div>
+                    <div class="p-prizes-card__inner">
+                      <figure>
+                        <picture class="p-prizes-card__img">
+                          <source media="(min-width: 900px)" srcset="./assets/img/img_prizes2.webp" />
+                          <img
+                            src="./assets/img/sp/img_prizes2_sp.webp"
+                            alt=""
+                            decoding="async"
+                            width="320"
+                            height="280"
+                            decoding="async"
+                          />
+                        </picture>
+                        <figcaption>
+                          <h3 class="p-prizes-card__title">ねこねこグッズセット</h3>
+                        </figcaption>
+                      </figure>
+                      <button class="p-prizes-card__button js-prizes-modal-open" type="button" aria-label="モーダルオープン">
+                        <span class="p-prizes-card__icon">
+                          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M36.0001 0V36H0L36.0001 0Z" />
+                            <g clip-path="url(#clip0_42136_3657)">
+                              <path
+                                d="M26.5161 23.2723C26.5161 23.4419 26.4488 23.6045 26.3289 23.7244C26.209 23.8443 26.0464 23.9116 25.8768 23.9116H24.8113V24.9772C24.8113 25.1468 24.7439 25.3094 24.624 25.4293C24.5041 25.5492 24.3415 25.6165 24.172 25.6165C24.0024 25.6165 23.8398 25.5492 23.7199 25.4293C23.6 25.3094 23.5327 25.1468 23.5327 24.9772V23.9116H22.4671C22.2976 23.9116 22.1349 23.8443 22.015 23.7244C21.8952 23.6045 21.8278 23.4419 21.8278 23.2723C21.8278 23.1027 21.8952 22.9401 22.015 22.8202C22.1349 22.7003 22.2976 22.633 22.4671 22.633H23.5327V21.5674C23.5327 21.3979 23.6 21.2352 23.7199 21.1153C23.8398 20.9954 24.0024 20.9281 24.172 20.9281C24.3415 20.9281 24.5041 20.9954 24.624 21.1153C24.7439 21.2352 24.8113 21.3979 24.8113 21.5674V22.633H25.8768C26.0464 22.633 26.209 22.7003 26.3289 22.8202C26.4488 22.9401 26.5161 23.1027 26.5161 23.2723ZM30.5913 29.6918C30.5319 29.7514 30.4613 29.7987 30.3836 29.8309C30.3059 29.8632 30.2226 29.8798 30.1384 29.8798C30.0543 29.8798 29.971 29.8632 29.8933 29.8309C29.8156 29.7987 29.745 29.7514 29.6856 29.6918L27.1555 27.1616C26.1669 27.9202 24.9268 28.2744 23.6867 28.1523C22.4466 28.0302 21.2994 27.4409 20.4778 26.5041C19.6561 25.5672 19.2216 24.3529 19.2624 23.1074C19.3032 21.862 19.8161 20.6786 20.6972 19.7975C21.5784 18.9164 22.7617 18.4034 24.0071 18.3626C25.2525 18.3219 26.4668 18.7564 27.4037 19.578C28.3405 20.3996 28.9297 21.5469 29.0519 22.787C29.174 24.0271 28.8198 25.2673 28.0612 26.2559L30.5939 28.7882C30.7133 28.9084 30.7801 29.0711 30.7796 29.2405C30.7791 29.4099 30.7114 29.5722 30.5913 29.6918ZM24.172 26.8952C24.8885 26.8952 25.5889 26.6827 26.1847 26.2846C26.7805 25.8866 27.2448 25.3207 27.519 24.6587C27.7932 23.9967 27.865 23.2683 27.7252 22.5655C27.5854 21.8627 27.2404 21.2172 26.7337 20.7105C26.227 20.2039 25.5815 19.8588 24.8787 19.719C24.176 19.5792 23.4476 19.651 22.7856 19.9252C22.1236 20.1994 21.5578 20.6637 21.1597 21.2595C20.7616 21.8553 20.5492 22.5558 20.5492 23.2723C20.5503 24.2328 20.9323 25.1537 21.6115 25.8328C22.2907 26.512 23.2115 26.8941 24.172 26.8952Z"
+                                fill="#F5F5F5"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_42136_3657">
+                                <rect width="11.5198" height="11.5198" fill="white" transform="translate(19.2598 18.36)" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-prizes__card">
+                  <div class="p-prizes-card js-prizes-modal-open" data-target="js-prizes-modal3">
+                    <div class="p-prizes-card__number">
+                      <img src="./assets/img/img_prizes_number3.webp" alt="特典3" width="160" height="160" decoding="async" />
+                    </div>
+                    <div class="p-prizes-card__inner">
+                      <figure>
+                        <picture class="p-prizes-card__img">
+                          <source media="(min-width: 900px)" srcset="./assets/img/img_prizes3.webp" />
+                          <img
+                            src="./assets/img/sp/img_prizes3_sp.webp"
+                            alt=""
+                            decoding="async"
+                            width="320"
+                            height="280"
+                            decoding="async"
+                          />
+                        </picture>
+                        <figcaption>
+                          <h3 class="p-prizes-card__title">尾道ラーメンセット</h3>
+                        </figcaption>
+                      </figure>
+                      <button class="p-prizes-card__button js-prizes-modal-open" type="button" aria-label="モーダルオープン">
+                        <span class="p-prizes-card__icon">
+                          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M36.0001 0V36H0L36.0001 0Z" />
+                            <g clip-path="url(#clip0_42136_3657)">
+                              <path
+                                d="M26.5161 23.2723C26.5161 23.4419 26.4488 23.6045 26.3289 23.7244C26.209 23.8443 26.0464 23.9116 25.8768 23.9116H24.8113V24.9772C24.8113 25.1468 24.7439 25.3094 24.624 25.4293C24.5041 25.5492 24.3415 25.6165 24.172 25.6165C24.0024 25.6165 23.8398 25.5492 23.7199 25.4293C23.6 25.3094 23.5327 25.1468 23.5327 24.9772V23.9116H22.4671C22.2976 23.9116 22.1349 23.8443 22.015 23.7244C21.8952 23.6045 21.8278 23.4419 21.8278 23.2723C21.8278 23.1027 21.8952 22.9401 22.015 22.8202C22.1349 22.7003 22.2976 22.633 22.4671 22.633H23.5327V21.5674C23.5327 21.3979 23.6 21.2352 23.7199 21.1153C23.8398 20.9954 24.0024 20.9281 24.172 20.9281C24.3415 20.9281 24.5041 20.9954 24.624 21.1153C24.7439 21.2352 24.8113 21.3979 24.8113 21.5674V22.633H25.8768C26.0464 22.633 26.209 22.7003 26.3289 22.8202C26.4488 22.9401 26.5161 23.1027 26.5161 23.2723ZM30.5913 29.6918C30.5319 29.7514 30.4613 29.7987 30.3836 29.8309C30.3059 29.8632 30.2226 29.8798 30.1384 29.8798C30.0543 29.8798 29.971 29.8632 29.8933 29.8309C29.8156 29.7987 29.745 29.7514 29.6856 29.6918L27.1555 27.1616C26.1669 27.9202 24.9268 28.2744 23.6867 28.1523C22.4466 28.0302 21.2994 27.4409 20.4778 26.5041C19.6561 25.5672 19.2216 24.3529 19.2624 23.1074C19.3032 21.862 19.8161 20.6786 20.6972 19.7975C21.5784 18.9164 22.7617 18.4034 24.0071 18.3626C25.2525 18.3219 26.4668 18.7564 27.4037 19.578C28.3405 20.3996 28.9297 21.5469 29.0519 22.787C29.174 24.0271 28.8198 25.2673 28.0612 26.2559L30.5939 28.7882C30.7133 28.9084 30.7801 29.0711 30.7796 29.2405C30.7791 29.4099 30.7114 29.5722 30.5913 29.6918ZM24.172 26.8952C24.8885 26.8952 25.5889 26.6827 26.1847 26.2846C26.7805 25.8866 27.2448 25.3207 27.519 24.6587C27.7932 23.9967 27.865 23.2683 27.7252 22.5655C27.5854 21.8627 27.2404 21.2172 26.7337 20.7105C26.227 20.2039 25.5815 19.8588 24.8787 19.719C24.176 19.5792 23.4476 19.651 22.7856 19.9252C22.1236 20.1994 21.5578 20.6637 21.1597 21.2595C20.7616 21.8553 20.5492 22.5558 20.5492 23.2723C20.5503 24.2328 20.9323 25.1537 21.6115 25.8328C22.2907 26.512 23.2115 26.8941 24.172 26.8952Z"
+                                fill="#F5F5F5"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_42136_3657">
+                                <rect width="11.5198" height="11.5198" fill="white" transform="translate(19.2598 18.36)" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-prizes__card">
+                  <div class="p-prizes-card js-prizes-modal-open" data-target="js-prizes-modal4">
+                    <div class="p-prizes-card__number">
+                      <img src="./assets/img/img_prizes_number4.webp" alt="特典4" width="160" height="160" decoding="async" />
+                    </div>
+                    <div class="p-prizes-card__inner">
+                      <figure>
+                        <picture class="p-prizes-card__img">
+                          <source media="(min-width: 900px)" srcset="./assets/img/img_prizes4.webp" />
+                          <img src="./assets/img/sp/img_prizes4_sp.webp" alt="" width="320" height="280" decoding="async" />
+                        </picture>
+                        <figcaption>
+                          <h3 class="p-prizes-card__title">おうちで<br />喫茶店セット</h3>
+                        </figcaption>
+                      </figure>
+                      <button class="p-prizes-card__button js-prizes-modal-open" type="button" aria-label="モーダルオープン">
+                        <span class="p-prizes-card__icon">
+                          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M36.0001 0V36H0L36.0001 0Z" />
+                            <g clip-path="url(#clip0_42136_3657)">
+                              <path
+                                d="M26.5161 23.2723C26.5161 23.4419 26.4488 23.6045 26.3289 23.7244C26.209 23.8443 26.0464 23.9116 25.8768 23.9116H24.8113V24.9772C24.8113 25.1468 24.7439 25.3094 24.624 25.4293C24.5041 25.5492 24.3415 25.6165 24.172 25.6165C24.0024 25.6165 23.8398 25.5492 23.7199 25.4293C23.6 25.3094 23.5327 25.1468 23.5327 24.9772V23.9116H22.4671C22.2976 23.9116 22.1349 23.8443 22.015 23.7244C21.8952 23.6045 21.8278 23.4419 21.8278 23.2723C21.8278 23.1027 21.8952 22.9401 22.015 22.8202C22.1349 22.7003 22.2976 22.633 22.4671 22.633H23.5327V21.5674C23.5327 21.3979 23.6 21.2352 23.7199 21.1153C23.8398 20.9954 24.0024 20.9281 24.172 20.9281C24.3415 20.9281 24.5041 20.9954 24.624 21.1153C24.7439 21.2352 24.8113 21.3979 24.8113 21.5674V22.633H25.8768C26.0464 22.633 26.209 22.7003 26.3289 22.8202C26.4488 22.9401 26.5161 23.1027 26.5161 23.2723ZM30.5913 29.6918C30.5319 29.7514 30.4613 29.7987 30.3836 29.8309C30.3059 29.8632 30.2226 29.8798 30.1384 29.8798C30.0543 29.8798 29.971 29.8632 29.8933 29.8309C29.8156 29.7987 29.745 29.7514 29.6856 29.6918L27.1555 27.1616C26.1669 27.9202 24.9268 28.2744 23.6867 28.1523C22.4466 28.0302 21.2994 27.4409 20.4778 26.5041C19.6561 25.5672 19.2216 24.3529 19.2624 23.1074C19.3032 21.862 19.8161 20.6786 20.6972 19.7975C21.5784 18.9164 22.7617 18.4034 24.0071 18.3626C25.2525 18.3219 26.4668 18.7564 27.4037 19.578C28.3405 20.3996 28.9297 21.5469 29.0519 22.787C29.174 24.0271 28.8198 25.2673 28.0612 26.2559L30.5939 28.7882C30.7133 28.9084 30.7801 29.0711 30.7796 29.2405C30.7791 29.4099 30.7114 29.5722 30.5913 29.6918ZM24.172 26.8952C24.8885 26.8952 25.5889 26.6827 26.1847 26.2846C26.7805 25.8866 27.2448 25.3207 27.519 24.6587C27.7932 23.9967 27.865 23.2683 27.7252 22.5655C27.5854 21.8627 27.2404 21.2172 26.7337 20.7105C26.227 20.2039 25.5815 19.8588 24.8787 19.719C24.176 19.5792 23.4476 19.651 22.7856 19.9252C22.1236 20.1994 21.5578 20.6637 21.1597 21.2595C20.7616 21.8553 20.5492 22.5558 20.5492 23.2723C20.5503 24.2328 20.9323 25.1537 21.6115 25.8328C22.2907 26.512 23.2115 26.8941 24.172 26.8952Z"
+                                fill="#F5F5F5"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_42136_3657">
+                                <rect width="11.5198" height="11.5198" fill="white" transform="translate(19.2598 18.36)" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-prizes__card">
+                  <div class="p-prizes-card js-prizes-modal-open" data-target="js-prizes-modal5">
+                    <div class="p-prizes-card__number">
+                      <img src="./assets/img/img_prizes_number5.webp" alt="特典5" width="160" height="160" decoding="async" />
+                    </div>
+                    <div class="p-prizes-card__inner">
+                      <figure>
+                        <picture class="p-prizes-card__img">
+                          <source media="(min-width: 900px)" srcset="./assets/img/img_prizes5.webp" />
+                          <img src="./assets/img/sp/img_prizes5_sp.webp" alt="" width="320" height="280" decoding="async" />
+                        </picture>
+                        <figcaption>
+                          <h3 class="p-prizes-card__title">工房尾道帆布<br />オリジナルトート</h3>
+                        </figcaption>
+                      </figure>
+                      <button class="p-prizes-card__button js-prizes-modal-open" type="button" aria-label="モーダルオープン">
+                        <span class="p-prizes-card__icon">
+                          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M36.0001 0V36H0L36.0001 0Z" />
+                            <g clip-path="url(#clip0_42136_3657)">
+                              <path
+                                d="M26.5161 23.2723C26.5161 23.4419 26.4488 23.6045 26.3289 23.7244C26.209 23.8443 26.0464 23.9116 25.8768 23.9116H24.8113V24.9772C24.8113 25.1468 24.7439 25.3094 24.624 25.4293C24.5041 25.5492 24.3415 25.6165 24.172 25.6165C24.0024 25.6165 23.8398 25.5492 23.7199 25.4293C23.6 25.3094 23.5327 25.1468 23.5327 24.9772V23.9116H22.4671C22.2976 23.9116 22.1349 23.8443 22.015 23.7244C21.8952 23.6045 21.8278 23.4419 21.8278 23.2723C21.8278 23.1027 21.8952 22.9401 22.015 22.8202C22.1349 22.7003 22.2976 22.633 22.4671 22.633H23.5327V21.5674C23.5327 21.3979 23.6 21.2352 23.7199 21.1153C23.8398 20.9954 24.0024 20.9281 24.172 20.9281C24.3415 20.9281 24.5041 20.9954 24.624 21.1153C24.7439 21.2352 24.8113 21.3979 24.8113 21.5674V22.633H25.8768C26.0464 22.633 26.209 22.7003 26.3289 22.8202C26.4488 22.9401 26.5161 23.1027 26.5161 23.2723ZM30.5913 29.6918C30.5319 29.7514 30.4613 29.7987 30.3836 29.8309C30.3059 29.8632 30.2226 29.8798 30.1384 29.8798C30.0543 29.8798 29.971 29.8632 29.8933 29.8309C29.8156 29.7987 29.745 29.7514 29.6856 29.6918L27.1555 27.1616C26.1669 27.9202 24.9268 28.2744 23.6867 28.1523C22.4466 28.0302 21.2994 27.4409 20.4778 26.5041C19.6561 25.5672 19.2216 24.3529 19.2624 23.1074C19.3032 21.862 19.8161 20.6786 20.6972 19.7975C21.5784 18.9164 22.7617 18.4034 24.0071 18.3626C25.2525 18.3219 26.4668 18.7564 27.4037 19.578C28.3405 20.3996 28.9297 21.5469 29.0519 22.787C29.174 24.0271 28.8198 25.2673 28.0612 26.2559L30.5939 28.7882C30.7133 28.9084 30.7801 29.0711 30.7796 29.2405C30.7791 29.4099 30.7114 29.5722 30.5913 29.6918ZM24.172 26.8952C24.8885 26.8952 25.5889 26.6827 26.1847 26.2846C26.7805 25.8866 27.2448 25.3207 27.519 24.6587C27.7932 23.9967 27.865 23.2683 27.7252 22.5655C27.5854 21.8627 27.2404 21.2172 26.7337 20.7105C26.227 20.2039 25.5815 19.8588 24.8787 19.719C24.176 19.5792 23.4476 19.651 22.7856 19.9252C22.1236 20.1994 21.5578 20.6637 21.1597 21.2595C20.7616 21.8553 20.5492 22.5558 20.5492 23.2723C20.5503 24.2328 20.9323 25.1537 21.6115 25.8328C22.2907 26.512 23.2115 26.8941 24.172 26.8952Z"
+                                fill="#F5F5F5"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_42136_3657">
+                                <rect width="11.5198" height="11.5198" fill="white" transform="translate(19.2598 18.36)" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- モーダルウィンドウ -->
+            <div class="p-prizes__dialogs">
+              <dialog id="p-prizes-modal1" class="p-prizes-modal">
+                <figure class="p-prizes-modal__card">
+                  <div class="p-prizes-modal__card-img">
+                    <img src="./assets/img/img_prizes_modal1.webp" alt="" width="880" height="680" decoding="async" />
+                  </div>
+                  <figcaption class="p-prizes-modal__card-body">
+                    <h3 class="p-prizes-modal__card-itle">海街洋菓子店 スイーツセット</h3>
+                    <p class="p-prizes-modal__card-text">
+                      海沿いにあるケーキ屋さん、<br />海街洋菓子店の人気焼き菓子詰め合わせセット。<br />
+                      こだわりのバターをふんだんに使ったリッチな味わいで、濃厚なコクが後を引く美味しさです。
+                    </p>
+                  </figcaption>
+                </figure>
+                <div class="p-prizes-modal__button">
+                  <button class="js-prizes-modal-close c-button" type="button" aria-label="モーダルウィンドウを閉じる">
+                    閉じる
+                  </button>
+                </div>
+              </dialog>
+              <dialog id="js-prizes-modal2" class="p-prizes-modal">
+                <figure class="p-prizes-modal__card">
+                  <div class="p-prizes-modal__card-img">
+                    <img src="./assets/img/img_prizes_modal2.webp" alt="" width="880" height="680" decoding="async" />
+                  </div>
+                  <figcaption class="p-prizes-modal__card-body">
+                    <h3 class="p-prizes-modal__card-itle">ねこねこグッズセット</h3>
+                    <p class="p-prizes-modal__card-text">
+                      お土産としても大人気の猫グッズを集めました。<br />
+                      お家で、オフィスで、<br />
+                      眺めているだけでも癒されてしまう<br />
+                      愛らしい猫たちと一緒に。
+                    </p>
+                  </figcaption>
+                </figure>
+                <div class="p-prizes-modal__button">
+                  <button class="js-prizes-modal-close c-button" type="button" aria-label="モーダルウィンドウを閉じる">
+                    閉じる
+                  </button>
+                </div>
+              </dialog>
+              <dialog id="js-prizes-modal3" class="p-prizes-modal">
+                <figure class="p-prizes-modal__card">
+                  <div class="p-prizes-modal__card-img">
+                    <img src="./assets/img/img_prizes_modal3.webp" alt="" width="880" height="680" decoding="async" />
+                  </div>
+                  <figcaption class="p-prizes-modal__card-body">
+                    <h3 class="p-prizes-modal__card-itle">尾道ラーメンセット</h3>
+                    <p class="p-prizes-modal__card-text">
+                      全国にファンがいる本格的な尾道ラーメンをお家で。<br />
+                      尾道ラーメンといえば、透き通った醤油スープと、<br />
+                      平打ち麺が特徴です。<br />
+                      コクがありながらまろやかな味のスープは<br />
+                      思わず飲み干したくなるお味。
+                    </p>
+                  </figcaption>
+                </figure>
+                <div class="p-prizes-modal__button">
+                  <button class="js-prizes-modal-close c-button" type="button" aria-label="モーダルウィンドウを閉じる">
+                    閉じる
+                  </button>
+                </div>
+              </dialog>
+              <dialog id="js-prizes-modal4" class="p-prizes-modal">
+                <figure class="p-prizes-modal__card">
+                  <div class="p-prizes-modal__card-img">
+                    <img src="./assets/img/img_prizes_modal4.webp" alt="" width="880" height="680" decoding="async" />
+                  </div>
+                  <figcaption class="p-prizes-modal__card-body">
+                    <h3 class="p-prizes-modal__card-itle">おうちで喫茶店セット</h3>
+                    <p class="p-prizes-modal__card-text">
+                      尾道の人気喫茶店のコーヒー豆を使用したドリップバッグとマグカップのセット。<br />
+                      香り高い深煎りの豆は、カフェオレにするのも◎<br />
+                      カンタンに楽しめるドリップバッグは、<br />
+                      オフィスや在宅ワーク時、忙しい家事の合間など 日常のさまざまなシーンで大活躍。
+                    </p>
+                  </figcaption>
+                </figure>
+                <div class="p-prizes-modal__button">
+                  <button class="js-prizes-modal-close c-button" type="button" aria-label="モーダルウィンドウを閉じる">
+                    閉じる
+                  </button>
+                </div>
+              </dialog>
+              <dialog id="js-prizes-modal5" class="p-prizes-modal">
+                <figure class="p-prizes-modal__card">
+                  <div class="p-prizes-modal__card-img">
+                    <img src="./assets/img/img_prizes_modal5.webp" alt="" width="880" height="680" decoding="async" />
+                  </div>
+                  <figcaption class="p-prizes-modal__card-body">
+                    <h3 class="p-prizes-modal__card-itle">工房尾道帆布オリジナルトート</h3>
+                    <p class="p-prizes-modal__card-text">
+                      工房尾道帆布とコラボした、<br />
+                      本キャンペーンオリジナルトート。<br />
+                      シンプルなデザインで、シーンを選ばず<br />
+                      お使いいただけます。<br />
+                      しっかりした生地で、<br />
+                      年月とともに変化していく風合いも魅力。
+                    </p>
+                  </figcaption>
+                </figure>
+                <div class="p-prizes-modal__button">
+                  <button class="js-prizes-modal-close c-button" type="button" aria-label="モーダルウィンドウを閉じる">
+                    閉じる
+                  </button>
+                </div>
+              </dialog>
+            </div>
+            <div class="p-prizes__button">
+              <a href="" class="c-button c-button--large">#見つけて尾道レトロ の最新投稿を見る</a>
+            </div>
+          </div>
+
+          <picture class="p-prizes__bg">
+            <source media="(min-width: 768px)" srcset="./assets/img/bg_prizes.webp" />
+            <img src="./assets/img/sp/bg_prizes_sp.webp" alt="" width="1160" height="520" decoding="async" />
+          </picture>
+        </section>
+
+        <section id="spots" class="p-spots">
+          <div class="p-spots__outer">
+            <div class="p-spots__top">
+              <div class="p-spots__heading-wrap">
+                <h2 class="p-spots__heading">おすすめスポット</h2>
+              </div>
+              <div class="p-spots__swiper">
+                <!-- Slider main container -->
+                <div id="js-spots-swiper" class="swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide p-spots-swiper__slide">
+                      <article class="p-spots-card">
+                        <figure>
+                          <picture class="p-spots-card__img">
+                            <source media="(min-width: 768px)" srcset="./assets/img/img_spots1.webp" />
+                            <img src="./assets/img/sp/img_spots1_sp.webp" alt="" width="480" height="360" decoding="async" />
+                          </picture>
+                          <figcaption>
+                            <h3 class="p-spots-card__title">天寧寺&emsp;海雲塔</h3>
+                            <p class="p-spots-card__text">
+                              尾道のシンボルともいえる三重の塔。海雲塔ごしに見える坂と海のパノラマは、まさに絶景そのもの。
+                            </p>
+                          </figcaption>
+                        </figure>
+                      </article>
+                    </div>
+                    <div class="swiper-slide p-spots-swiper__slide">
+                      <article class="p-spots-card">
+                        <figure>
+                          <picture class="p-spots-card__img">
+                            <source media="(min-width: 768px)" srcset="./assets/img/img_spots2.webp" />
+                            <img src="./assets/img/sp/img_spots2_sp.webp" alt="" width="480" height="360" decoding="async" />
+                          </picture>
+                          <figcaption>
+                            <h3 class="p-spots-card__title">猫の細道</h3>
+                            <p class="p-spots-card__text">
+                              尾道名物といえば、やっぱり猫！猫たちが集まりやすいスポットとして有名な猫の細道は、神社の手前からお寺までおよそ200メートル続きます。あちこちに飾られた猫のアートを見るのも楽しいですよ。
+                            </p>
+                          </figcaption>
+                        </figure>
+                      </article>
+                    </div>
+                    <div class="swiper-slide p-spots-swiper__slide">
+                      <article class="p-spots-card">
+                        <figure>
+                          <picture class="p-spots-card__img">
+                            <source media="(min-width: 768px)" srcset="./assets/img/img_spots3.webp" />
+                            <img src="./assets/img/sp/img_spots3_sp.webp" alt="" width="480" height="360" decoding="async" />
+                          </picture>
+                          <figcaption>
+                            <h3 class="p-spots-card__title">本通商店街</h3>
+                            <p class="p-spots-card__text">
+                              東西にのびる通りには、個性豊かなお店が並びます。尾道ならではのお土産探しにもぴったりのエリアです。風情あふれる通りを歩きながら、自分だけの宝物探しにでかけましょう！
+                            </p>
+                          </figcaption>
+                        </figure>
+                      </article>
+                    </div>
+                    <div class="swiper-slide p-spots-swiper__slide">
+                      <article class="p-spots-card">
+                        <figure>
+                          <picture class="p-spots-card__img">
+                            <source media="(min-width: 768px)" srcset="./assets/img/img_spots4.webp" />
+                            <img src="./assets/img/sp/img_spots4_sp.webp" alt="" width="480" height="360" decoding="async" />
+                          </picture>
+                          <figcaption>
+                            <h3 class="p-spots-card__title">工房尾道帆布</h3>
+                            <p class="p-spots-card__text">
+                              向島産の帆布を使ったバッグや小物がそろうお店。ポケット追加などのオーダー（有料）も可能です。店内には、帆布の織機も展示してあります。旅の相棒になるバッグを探してみるのもいいかも！
+                            </p>
+                          </figcaption>
+                        </figure>
+                      </article>
+                    </div>
+                    <div class="swiper-slide p-spots-swiper__slide">
+                      <article class="p-spots-card">
+                        <figure>
+                          <picture class="p-spots-card__img">
+                            <source media="(min-width: 768px)" srcset="./assets/img/img_spots5.webp" />
+                            <img src="./assets/img/sp/img_spots5_sp.webp" alt="" width="480" height="360" decoding="async" />
+                          </picture>
+                          <figcaption>
+                            <h3 class="p-spots-card__title">ゆーゆー</h3>
+                            <p class="p-spots-card__text">当時のおもかげを色濃く感じることができます</p>
+                          </figcaption>
+                        </figure>
+                      </article>
+                    </div>
+                    <div class="swiper-slide p-spots-swiper__slide">
+                      <article class="p-spots-card">
+                        <figure>
+                          <picture class="p-spots-card__img">
+                            <source media="(min-width: 768px)" srcset="./assets/img/img_spots6.webp" />
+                            <img src="./assets/img/sp/img_spots6_sp.webp" alt="" width="480" height="360" decoding="async" />
+                          </picture>
+                          <figcaption>
+                            <h3 class="p-spots-card__title">AIRSHIP COFFEE</h3>
+                            <p class="p-spots-card__text">
+                              元航海士のコーヒー専門家が営むカフェ。大のコーヒー好きであるオーナー自身が、古民家を再生して開いたお店です。こだわりの詰まったコーヒーは、コーヒー通も唸るおいしさ。テイクアウトして海辺で飲むのもおすすめ！
+                            </p>
+                          </figcaption>
+                        </figure>
+                      </article>
+                    </div>
+                    <div class="swiper-slide p-spots-swiper__slide">
+                      <article class="p-spots-card">
+                        <figure>
+                          <picture class="p-spots-card__img">
+                            <source media="(min-width: 768px)" srcset="./assets/img/img_spots7.webp" />
+                            <img src="./assets/img/sp/img_spots7_sp.webp" alt="" width="480" height="360" decoding="async" />
+                          </picture>
+                          <figcaption>
+                            <h3 class="p-spots-card__title">日暮亭（ひぐらしてい）</h3>
+                            <p class="p-spots-card__text">
+                              築百年のお家をリノベーションし、畳や梁が建築当時のまま残る喫茶店。和のスイーツが楽しめます。人気メニューはみたらしパフェ。
+                            </p>
+                          </figcaption>
+                        </figure>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-spots__bottom">
+              <div class="p-spots__swiper-arrows-wrap">
+                <div class="p-spots__swiper-arrows">
+                  <div id="js-spots-swiper-prev" class="swiper-button-prev p-spots__swiper-prev"></div>
+                  <div id="js-spots-swiper-next" class="swiper-button-next p-spots__swiper-next"></div>
+                </div>
+              </div>
+              <div class="p-spots__bottom-inner l-inner">
+                <div class="p-spots__bottom-logo">
+                  <img src="./assets/img/logo_spots.svg" alt="SPOTS" width="495" height="107" decoding="async" />
+                </div>
+                <div class="p-spots__bottom-right">
+                  <p class="p-spots__bottom-text">レトロな景色に出会える人気の撮影スポットをピックアップ！</p>
+                  <div class="p-spots__bottom-button">
+                    <a href="" class="c-button c-button--large">#見つけて尾道レトロ の最新投稿を見る</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="qa" class="p-qa">
+          <div class="p-qa__inner l-inner">
+            <hgroup class="c-heading p-qa__heading">
+              <p class="c-heading__en">Q&A</p>
+              <h2 class="c-heading__ja">よくあるご質問</h2>
+            </hgroup>
+            <div class="p-qa__boxes">
+              <details class="p-qa-box">
+                <summary class="p-qa-box__q-body">
+                  <span class="p-qa-box__q-icon">Q</span><span class="p-qa-box__q-text">ひとりで複数回投稿してもいいですか？</span
+                  ><span class="p-qa-box__button"></span>
+                </summary>
+                <div class="p-qa-box__a-body">
+                  <div class="p-qa-box__a-body-inner">
+                    <span class="p-qa-box__a-icon">A</span>
+                    <span class="p-qa-box__a-text">期間中であれば何度でも投稿可能ですが、当選は１回限りとなります。</span>
+                  </div>
+                </div>
+              </details>
+
+              <details class="p-qa-box">
+                <summary class="p-qa-box__q-body">
+                  <span class="p-qa-box__q-icon">Q</span><span class="p-qa-box__q-text">過去の尾道旅行の写真でもいいですか？</span
+                  ><span class="p-qa-box__button"></span>
+                </summary>
+                <div class="p-qa-box__a-body">
+                  <div class="p-qa-box__a-body-inner">
+                    <span class="p-qa-box__a-icon">A</span>
+                    <span class="p-qa-box__a-text">
+                      キャンペーン以前の期間に撮影した写真での参加も可能です。ただし、過去のInstagramに投稿済みのものに編集で「#見つけて尾道レトロ」を追加されてもシステム上反映することはできません。ご注意ください。</span
+                    >
+                  </div>
+                </div>
+              </details>
+              <details class="p-qa-box">
+                <summary class="p-qa-box__q-body">
+                  <span class="p-qa-box__q-icon">Q</span
+                  ><span class="p-qa-box__q-text">お店の中で写真を撮ってもいいですか？ </span
+                  ><span class="p-qa-box__button"></span>
+                </summary>
+                <div class="p-qa-box__a-body">
+                  <div class="p-qa-box__a-body-inner">
+                    <span class="p-qa-box__a-icon">A</span>
+                    <span class="p-qa-box__a-text">
+                      店内で撮影した写真での参加も可能ですが、他人のプライバシーを侵害する写真によるご応募は無効です。店内撮影の際は、必ずお店の人へご確認ください。</span
+                    >
+                  </div>
+                </div>
+              </details>
+              <details class="p-qa-box">
+                <summary class="p-qa-box__q-body">
+                  <span class="p-qa-box__q-icon">Q</span><span class="p-qa-box__q-text">当選したらプレゼントは選べますか？ </span
+                  ><span class="p-qa-box__button"></span>
+                </summary>
+                <div class="p-qa-box__a-body">
+                  <div class="p-qa-box__a-body-inner">
+                    <span class="p-qa-box__a-icon">A</span>
+                    <span class="p-qa-box__a-text">
+                      恐れ入りますが、プレゼントをお選びいただくことはできません。また、ご当選者の発表は当選者の方への連絡をもって代えさせていただきます。</span
+                    >
+                  </div>
+                </div>
+              </details>
+            </div>
+          </div>
+        </section>
+
+        <section id="requirements" class="p-requirements">
+          <div class="p-requirements__inner l-inner">
+            <div class="p-requirements__box">
+              <hgroup class="c-heading p-requirements__heading">
+                <p class="c-heading__en">Entry Requirements</p>
+                <h2 class="c-heading__ja">参加要項</h2>
+              </hgroup>
+              <div class="p-requirements__table">
+                <table class="p-requirements-table">
+                  <tbody class="p-requirements-table__content">
+                    <tr class="p-requirements-table__row">
+                      <th class="p-requirements-table__head">キャンペーン名</th>
+                      <td class="p-requirements-table_text">#見つけて尾道レトロキャンペーン</td>
+                    </tr>
+                    <tr class="p-requirements-table__row">
+                      <th class="p-requirements-table__head">応募期間</th>
+                      <td class="p-requirements-table_text">2022/8/1(月)〜2022/9/30(金)</td>
+                    </tr>
+                    <tr class="p-requirements-table__row">
+                      <th class="p-requirements-table__head">内容</th>
+                      <td class="p-requirements-table_text">
+                        尾道観光部（<a href="https://www.instagram.com/" class="u-link-text" target="_blank">@onomichi_retro</a
+                        >）をフォロー&尾道で撮影した写真を、ハッシュタグ「#見つけて尾道レトロ」をつけてInstagramに投稿いただいた方の中から100名様に尾道のギフトセットやオリジナルグッズをプレゼント！
+                      </td>
+                    </tr>
+                    <tr class="p-requirements-table__row">
+                      <th class="p-requirements-table__head">対象のお客様</th>
+                      <td class="p-requirements-table_text">
+                        日本国内在住で、公式アカウント（<a href="https://www.instagram.com/" class="u-link-text"
+                          >@onomichi_retro</a
+                        >）をフォローのうえ、ハッシュタグをつけて応募された方
+                      </td>
+                    </tr>
+                    <tr class="p-requirements-table__row">
+                      <th class="p-requirements-table__head">注意事項</th>
+                      <td class="p-requirements-table_text">
+                        <ul>
+                          <li>
+                            当選のご連絡はInstagramダイレクトメールで 行いますので、公式アカウント（<a href="" class="u-link-text"
+                              >＠jtb_nihonnoshun</a
+                            >）を必ずフォローしてください。
+                          </li>
+                          <li>
+                            Instagramの投稿を「非公開」設定にされている場合は、本キャンペーンの応募対象外になりますのでご
+                            注意ください。 ご本人が撮影した写真が対象です。
+                          </li>
+                          <li>
+                            他人の著作権を侵害する写真、公序良俗に反する写真、他人のプライバシーを侵害する写真によるご応募は無効です。
+                          </li>
+                          <li>
+                            指定のハッシュタグをつけて画像を投稿した時点で肖像権や著作権、その他一切の関連する権利（以下、「肖像権等」といいます）に対する了承がとれているものと見なします。
+                            投稿写真内で確認できる対象物によって肖像権等の第三者の権利侵害があった場合、当社は一切責任を負いません。
+                          </li>
+                          <li>
+                            投稿された写真は<a href="https://www.instagram.com/" class="u-link-text" target="_blank"
+                              >＠onomichi_retro</a
+                            >にリポスト投稿する場合もあります。
+                          </li>
+                          <li>発表は当選者の方への連絡をもって代えさせていただきます。</li>
+                          <li>ご応募は日本国内在住の方に限ります。</li>
+                          <li>
+                            ご送信いただいた個人情報は当社が当選者への賞品の発送、本キャンペーンに関する諸連絡に利用するほか、商品やサービスの参考とするために個人を特定しない統計情報の形で利用させていただきます。
+                          </li>
+                          <li>
+                            応募者または当選者の個人情報は当社が管理します。応募者または当選者の個人情報を応募者または当選者の同意なしに業務委託先以外の第三者に開示・提供することはありません。（法令等により開示を求められた場合を除く）なお、ご送信いただいた個人情報は当社の個人情報保護方針に基づき安全かつ適切に管理いたします。詳しくは当社ホームページにて、プライバシーポリシーをご確認ください。
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <picture class="p-requirements__bg">
+            <source media="(min-width: 900px)" srcset="./assets/img/bg_requirements.webp" width="1512" height="400" />
+            <img src="./assets/img/sp/bg_requirements_sp.webp" alt="" width="750" height="199" decoding="async" />
+          </picture>
+        </section>
+
+        <section id="contact" class="p-contact">
+          <div class="p-contact__inner l-inner">
+            <hgroup class="c-heading p-contact__heading">
+              <p class="c-heading__en">Contact</p>
+              <h2 class="c-heading__ja">お問い合わせ</h2>
+            </hgroup>
+            <p class="p-contact__text">
+              本キャンペーンに関するお問い合わせは<br class="u-hidden-lg" />以下のフォームからお願いします。
+            </p>
+            <form id="js-form" class="p-contact__form p-form js-form">
+              <div class="p-form__fields">
+                <div class="p-form__field">
+                  <div class="p-form__field-head">
+                    <label for="your-name" class="p-form__field-label">お名前</label>
+                    <span class="p-form__field-tag">必須</span>
+                  </div>
+                  <div class="p-form__field-input">
+                    <input
+                      required
+                      type="text"
+                      name="your-name"
+                      id="your-name"
+                      class="p-form__field-text-input js-form-input"
+                      placeholder="山田太郎"
+                    />
+                  </div>
+                </div>
+                <div class="p-form__field">
+                  <div class="p-form__field-head">
+                    <label for="your-email" class="p-form__field-label">メールアドレス</label>
+                    <span class="p-form__field-tag">必須</span>
+                  </div>
+                  <div class="p-form__field-input">
+                    <input
+                      required
+                      type="email"
+                      name="your-email"
+                      id="your-email"
+                      class="p-form__field-text-input js-form-input"
+                    />
+                  </div>
+                </div>
+                <div class="p-form__field">
+                  <div class="p-form__field-head">
+                    <span class="p-form__field-label">お問い合わせ項目</span>
+                    <span class="p-form__field-tag">必須</span>
+                  </div>
+                  <div class="p-form__field-input">
+                    <select required id="your-select" class="p-form__field-select js-form-input">
+                      <option value>選択してください</option>
+                      <option value="選択項目1">選択項目1</option>
+                      <option value="選択項目2">選択項目2</option>
+                      <option value="選択項目3">選択項目3</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="p-form__field">
+                  <div class="p-form__field-head">
+                    <span class="p-form__field-label">メールマガジン</span>
+                  </div>
+                  <div class="p-form__field-radios">
+                    <label class="p-form__field-radio">
+                      <input type="radio" name="your-type" class="p-form__field-radio-input" />
+                      <span class="p-form__radio-text">希望する</span>
+                    </label>
+                    <label class="p-form__field-radio">
+                      <input type="radio" name="your-type" class="p-form__field-radio-input" />
+                      <span class="p-form__radio-text">希望しない</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="p-form__field">
+                  <div class="p-form__field-head">
+                    <label for="your-message" class="p-form__field-label">メッセージ</label>
+                    <span class="p-form__field-tag">必須</span>
+                  </div>
+                  <div class="p-form__field-input">
+                    <textarea
+                      name="your-message"
+                      id="your-message"
+                      cols="30"
+                      rows="10"
+                      class="p-form__field-textarea-input js-form-input"
+                      placeholder="このキャンペーンに関するお問い合わせがある方は、こちらにご相談内容をご入力ください。3営業日以内にご返信いたします。"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="p-form__privacy">
+                <label class="p-form__checkbox">
+                  <input
+                    required
+                    type="checkbox"
+                    id="privacy-check"
+                    name="your-privacy"
+                    class="p-form__checkbox-input js-form-input"
+                  />
+                  <span class="p-form__checkbox-text"><a href="" target="_blank">プライバシーポリシー</a>に合意する</span>
+                </label>
+              </div>
+              <div class="p-form__button">
+                <input id="js-submit" type="submit" class="c-button c-button--submit" value="上記の内容を送信する" />
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer class="l-footer">
+        <div class="l-footer__decoration-pawpads">
+          <img src="./assets/img/deco_pawpads1.webp" alt="" width="201" height="440" decoding="async" />
+        </div>
+        <div class="l-footer__inner l-inner">
+          <div class="l-footer__sns-wrap">
+            <strong class="l-footer__title">\ Please Follow Us! /</strong>
+            <div class="l-footer__sns">
+              <a href="https://www.youtube.com/" class="l-footer__sns-item" target="_blank"
+                ><img src="./assets/img/icon_sns_youtube.svg" alt="Youtube" width="40" height="40" decoding="async"
+              /></a>
+              <a href="https://www.instagram.com/" class="l-footer__sns-item" target="_blank"
+                ><img src="./assets/img/icon_sns_instaglam.svg" alt="Instaglam" width="40" height="40" decoding="async"
+              /></a>
+              <a href="https://twitter.com/?lang=ja" class="l-footer__sns-item" target="_blank"
+                ><img src="./assets/img/icon_sns_twitter.svg" alt="X(Twitter)" width="40" height="40" decoding="async"
+              /></a>
+            </div>
+          </div>
+          <div class="l-footer__logo">
+            <img src="./assets/img/logo_onomichi.webp" alt="" width="1479" height="155" decoding="async" />
+          </div>
+          <div class="l-footer__address-wrap">
+            <address class="l-footer__address">
+              <div class="l-footer__address-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31317.957380288648!2d133.17328393545932!3d34.40402071477978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3550ffd5bf6b0961%3A0x7b7dea5b3d97af31!2z5bqD5bO255yM5bC-6YGT5biC!5e0!3m2!1sja!2sjp!4v1712565834710!5m2!1sja!2sjp"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div class="l-footer__address-body">
+                <div class="l-footer__address-logo">
+                  <img src="./assets/img/logo.svg" alt="" width="183" height="24" decoding="async" />
+                </div>
+                <dl class="l-footer__address-data">
+                  <div class="l-footer__address-data-wrap">
+                    <dt class="l-footer__address-head">運営者</dt>
+                    <dd class="l-footer__address-text">観光キャンペーン運営事務局</dd>
+                  </div>
+                  <div class="l-footer__address-data-wrap">
+                    <dt class="l-footer__address-head">住所</dt>
+                    <dd class="l-footer__address-text">広島県尾道市久保１丁目○−○</dd>
+                  </div>
+                  <div class="l-footer__address-data-wrap">
+                    <dt class="l-footer__address-head">営業時間</dt>
+                    <dd class="l-footer__address-text">平日9:00-17:00（土・日・祝は休み）</dd>
+                  </div>
+                  <div class="l-footer__address-data-wrap">
+                    <dt class="l-footer__address-head">電話番号</dt>
+                    <dd class="l-footer__address-text">000-0000-0000</dd>
+                  </div>
+                </dl>
+              </div>
+            </address>
+          </div>
+        </div>
+        <div class="l-footer__pagetop">
+          <button id="js-pagetop-btn" class="l-footer__pagetop-button" aria-label="ページトップへ戻る">
+            <img src="./assets/img/img_pagetop.webp" alt="ページトップへ戻る" width="209" height="216" decoding="async" />
+          </button>
+        </div>
+        <div class="l-footer__bottom">
+          <small class="l-footer__copyright">Copyright&nbsp;©&nbsp;Tourism&nbsp;campaign&nbsp;management&nbsp;office.</small>
+        </div>
+      </footer>
+    </div>
+    <!-- javasqriptの読み込みのための記述 -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    <script src="./assets/js/script.js" defer></script>
+  </body>
+</html>
